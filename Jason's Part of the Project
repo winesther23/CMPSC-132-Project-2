@@ -1,6 +1,11 @@
+#Task 1
+
+#Importing pandas to make the csv file into a dataframe
 import pandas as pd
 
+#Reading the csv file
 Votes = pd.read_csv("Voting-Counties.csv")
 
+#Creating a new column with the sum of votes for each county
 Votes['Total_Votes_By_County'] = Votes['BB Votes'] + Votes['RR Votes']
 print(Votes['Total_Votes_By_County'])
