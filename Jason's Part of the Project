@@ -1,1 +1,6 @@
+import pandas as pd
 
+Votes = pd.read_csv("Voting-Counties.csv")
+
+Votes['Total_Votes_By_County'] = Votes['BB Votes'] + Votes['RR Votes']
+print(Votes['Total_Votes_By_County'])
