@@ -9,9 +9,8 @@ import pandas as pd
 Votes = pd.read_csv("Voting-Counties.csv")
 
 #Calculating the sum of votes for each candidate in each states
-Total_BB_Votes = Votes.groupby(['state_name'])['BB Votes'].sum()
-Total_RR_Votes = Votes.groupby(['state_name'])['RR Votes'].sum()
+Total_Votes_Per_Candidate = Votes.groupby(['state_name'])[['BB Votes', 'RR Votes']].sum()
 
 #Checking to see how it looks
-print(Total_BB_Votes)
-print(Total_RR_Votes)
+print(Total_Votes_Per_Candidate)
+
