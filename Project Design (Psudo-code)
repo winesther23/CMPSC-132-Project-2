@@ -14,10 +14,17 @@ determine whichever candidate has a greater number of votes
 print the name of the winner of the popular vote
 
 #Task 4
+import State_Info.csv file
+read in the number of electoral votes for each state
 
 #Task 5
+Determine which candidate has the most electoral votes for each state 
+assign that candidate as the winner in each state
 
 #Task 6
+Sort to find the number of times each candidate won a votes
+determine which candidate won votes the most amount of times
+print which candidate got the most votes 
 
 #Task 7
 
