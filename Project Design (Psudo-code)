@@ -1,8 +1,17 @@
 #Task 1
-import County Votes.csv
+import Voting_Counties.csv
+sort each county based on their state
+sum the amount of votes per state for each candidate
+
 #Task 2
+take the sum of votes per state 
+divide it by the total number of votes
+multiply it 100 to get the percentage 
 
 #Task 3
+combine the total number of votes for each candidate
+determine whichever candidate has a greater number of votes
+print the name of the winner of the popular vote
 
 #Task 4
 
