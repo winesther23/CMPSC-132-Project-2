@@ -1,7 +1,7 @@
 #Tasks to be completed: 3,8,9
 
 #Task 3: Determine who won the Electoral Vote Tally
-
+total_votes = sum()
 
 #Task 8: Print Summary chart of Sample Outputs
 
