@@ -1,12 +1,15 @@
 #Tasks to be completed: 1,5,7
 
 #Task 1
+#mounting the drive to get the file from google
+from google.colab import drive
+drive.mount('/content/drive')
+
+##Reading the csv file
+Counties_Vote = pd.read_csv('/content/drive/My Drive/Datasets/Project_2/Voting-Counties.csv')
 
 #Importing pandas to make the csv file into a dataframe
 import pandas as pd
-
-#Reading the csv file
-Votes = pd.read_csv("Voting-Counties.csv")
 
 #Calculating the sum of votes for each candidate in each states
 Total_Votes_Per_Candidate = Counties_Vote.groupby(['state_name'])[['Votes', 'BB Votes', 'RR Votes']].sum()
