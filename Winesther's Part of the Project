@@ -1,8 +1,16 @@
 #Tasks to be completed: 3,8,9
 
 #Task 3: Determine who won the Electoral Vote Tally
-total_votesR = sum()
-total_votesB = sum()
+
+total_votesR = sum(Counties_Vote[RR])
+total_votesB = sum(Counties_Vote[BB])
+
+if total_votesR > total_votesB:
+  popular_vote_winner = "Road Runner"
+else:
+  popular_vote_winner = "Bugs Bunny"
+
+print(f'The candidate with the popular vote is {popular_vote_winner}. Road Runner had a total of {total_votesR} votes and Bugs Bunny had total of {total_votesB}.)
 
 #Task 8: Print Summary chart of Sample Outputs
 
