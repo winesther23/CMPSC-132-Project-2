@@ -5,3 +5,7 @@ Total_Votes_Per_Candidate['BB_Percentage'] = (Total_Votes_Per_Candidate['BB Vote
 Total_Votes_Per_Candidate['RR_Percentage'] = (Total_Votes_Per_Candidate['RR Votes'] / Total_Votes_Per_Candidate['Total']) * 100
 
 print(Total_Votes_Per_Candidate[['BB_Percentage', 'RR_Percentage']])
+
+#Task 4
+
+#Task 6
