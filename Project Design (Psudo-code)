@@ -22,12 +22,17 @@ Determine which candidate has the most electoral votes for each state
 assign that candidate as the winner in each state
 
 #Task 6
-Sort to find the number of times each candidate won a votes
+Sort to find the number of times each candidate won a vote
 determine which candidate won votes the most amount of times
 print which candidate got the most votes 
 
 #Task 7
+Get user input for a state ID
+print all summary information for the given state ID
 
 #Task 8
-
+Print summary chart including state name, state id, state vote for RR and BB.
 #Task 9
+Take an input for a date and time to show what results were in at that time
+Print who was leading in the popular vote, print who was leading in the electoral vote
+Print a report with the time, the results and the % of state votes reported.
