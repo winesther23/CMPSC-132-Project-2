@@ -3,10 +3,10 @@
 #Task 2
 Total_Votes_Per_Candidate['BB_Percentage'] = (Total_Votes_Per_Candidate['BB Votes'] / Total_Votes_Per_Candidate['Total']) * 100
 Total_Votes_Per_Candidate['RR_Percentage'] = (Total_Votes_Per_Candidate['RR Votes'] / Total_Votes_Per_Candidate['Total']) * 100
-
 print(Total_Votes_Per_Candidate[['BB_Percentage', 'RR_Percentage']])
 
 #Task 4
+#import State_Info.csv file
 import csv
 def stateinfo_list():
     print("Location", "Postal Abbreviation", "Number of Registered Voters (in thousands)","Registered Voters as a Share of the Voter Population", "# of Individuals who Voted (in thousands)", " Individuals who Voted as a Share of the Voter Population", "Number of Registered Voters", "Total Population", "Avg. # Reg. Voters/Precinct", "Number of Precincts", "Number of Votes cast", "Votes cast / population", "Num Counties", "Avg Votes per County","Electoral Votes","Latitude","Longitude")
@@ -14,6 +14,6 @@ filename= 'State-Info.csv'
 state = open ('State-Info.csv','r+')
 
 
-
-
+#read in the number of electoral votes for each state
+#(tweak this a bit)print('Electoral Votes', 'r')
 #Task 6
