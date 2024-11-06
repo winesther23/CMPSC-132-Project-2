@@ -1,1 +1,5 @@
 #Tasks to be completed: 2,4,6
+
+#Task 2
+Total_Votes_Per_Candidate['BB_Percentage'] = (Total_Votes_Per_Candidate['BB Votes'] / Total_Votes_Per_Candidate['Total']) * 100
+Total_Votes_Per_Candidate['RR_Percentage'] = (Total_Votes_Per_Candidate['RR Votes'] / Total_Votes_Per_Candidate['Total']) * 100
