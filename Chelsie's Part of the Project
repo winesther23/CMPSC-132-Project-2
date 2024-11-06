@@ -7,5 +7,7 @@ Total_Votes_Per_Candidate['RR_Percentage'] = (Total_Votes_Per_Candidate['RR Vote
 print(Total_Votes_Per_Candidate[['BB_Percentage', 'RR_Percentage']])
 
 #Task 4
-
+def stateinfo_list():
+    state = open ('State-Info.csv')
+    print("Location", "Postal Abbreviation", "Number of Registered Voters (in thousands)","Registered Voters as a Share of the Voter Population", "# of Individuals who Voted (in thousands)", " Individuals who Voted as a Share of the Voter Population", "Number of Registered Voters", "Total Population", "Avg. # Reg. Voters/Precinct", "Number of Precincts", "Number of Votes cast", "Votes cast / population", "Num Counties", "Avg Votes per County","Electoral Votes","Latitude","Longitude")
 #Task 6
