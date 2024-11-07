@@ -8,12 +8,21 @@ print(Total_Votes_Per_Candidate[['BB_Percentage', 'RR_Percentage']])
 #Task 4
 #import State_Info.csv file
 import csv
-
+#print headers
 print("Location", "Postal Abbreviation", "Number of Registered Voters (in thousands)","Registered Voters as a Share of the Voter Population", "# of Individuals who Voted (in thousands)", " Individuals who Voted as a Share of the Voter Population", "Number of Registered Voters", "Total Population", "Avg. # Reg. Voters/Precinct", "Number of Precincts", "Number of Votes cast", "Votes cast / population", "Num Counties", "Avg Votes per County","Electoral Votes","Latitude","Longitude")
 filename= ('State-Info.csv')
 open ('State-Info.csv','r+')
+r= csv.DictReader(state_info)
 
+next(r)
+next(r)
+columnname = next(r)
+
+for row in r:
+  electoral =
 
 #read in the number of electoral votes for each state
+
+
 #(tweak this a bit)print('Electoral Votes', 'r')
 #Task 6
