@@ -12,6 +12,28 @@ else:
 
 print(f'The candidate with the popular vote is {popular_vote_winner}. Road Runner had a total of {total_votesR} votes and Bugs Bunny had total of {total_votesB}.)
 
+#Task 4 (My way)
+import csv
+
+open('State-Info.csv', newline='')
+state_info = ('State-Info.csv')
+r = csv.DictReader(state_info)
+
+next(r)
+next(r)
+
+column_names = next(r)
+
+for row in r:
+    d = dict(zip(column_names,row))
+
+for row in r:
+        electoral_votes = d.get('Electoral Votes')
+        state = d.get('Location')
+
+        print(f"State: {state}, Electoral Votes: {electoral_votes}")
+
+
 #Task 8: Print Summary chart of Sample Outputs
 
 
